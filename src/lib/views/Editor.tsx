@@ -9,7 +9,7 @@ import {
   useTheme,
   useMediaQuery,
 } from "@mui/material";
-import { randomBytes } from "crypto";
+import randomBytes from "randombytes";
 import { addMinutes, differenceInMinutes } from "date-fns";
 import { EditorDatePicker } from "../components/inputs/DatePicker";
 import { EditorInput } from "../components/inputs/Input";
